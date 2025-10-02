@@ -5,9 +5,9 @@ from tqdm import tqdm
 import os
 
 # Configuration
-API_KEY = 'dba0fc3ed530412fac3a32ed6b08f1e2'
-INPUT_FILE = 'Card - CYBERSOURCE - Sheet8.csv'
-OUTPUT_FILE = 'ip_locations.csv'
+API_KEY = 'YOUR-API-KEY-HERE'  # Replace with your actual API key
+INPUT_FILE = 'YOUR_INPUT_FILE.csv'  # Replace with your input CSV file path
+OUTPUT_FILE = 'YOUR_OUTPUT_FILE.csv'  # Replace with your desired output CSV file path
 
 # Check if output file exists (resume mode)
 if os.path.exists(OUTPUT_FILE):
