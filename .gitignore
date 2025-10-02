@@ -1,0 +1,17 @@
+# Virtual Environment
+ip_lookup_env/
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Sensitive data
+*.csv
+*.xlsx
+
+# API Keys (if you have a separate config file)
+config.py
+.env
+
+# Mac files
+.DS_Store
